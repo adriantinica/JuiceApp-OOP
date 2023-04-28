@@ -9,7 +9,7 @@ public class Apple extends Fruit{
     }
 
     public Apple (){
-        super();
+        super();         // that's how we delegate an default constructor -> class Fruit : HW1 
     }
 
 }
