@@ -13,8 +13,8 @@ class App{
         Fruit smallBanana = new Banana(30);
         Fruit bigBanana = new Banana(500);
 
-        Fruit smallAnanas = new Ananas(800);
-        Fruit bigAnanas = new Ananas(1200);
+        Fruit smallPineApple= new PineApple(800);
+        Fruit bigPineApple = new PineApple(1200);
         
 
 
@@ -25,8 +25,8 @@ class App{
         Juice bigBananaJuice = homBlender.blend(bigBanana);
         System.out.println(bigBananaJuice.volume);
 
-        Juice bigAnanasJuice = homBlender.blend(bigAnanas);
-        System.out.println(bigAnanasJuice.volume);
+        Juice bigPineAppleJuice = homBlender.blend(bigPineApple);
+        System.out.println(bigPineAppleJuice.volume);
 
 
        }
