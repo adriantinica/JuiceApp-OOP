@@ -9,7 +9,11 @@ public class Apple extends Fruit{
     }
 
     public Apple (){
-        super();         // that's how we delegate an default constructor -> class Fruit : HW1 
+        super();
+    }
+
+    public void printVitamines(){
+        System.out.println("B- Complex and Minerals");
     }
 
 }
