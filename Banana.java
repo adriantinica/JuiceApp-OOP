@@ -1,7 +1,7 @@
 public class Banana extends Fruit{
 
 
-    public Banana(int fruitWeight){   // HW 2 (CODE STYLE)- i think the name of the variables should be called using camelCase method, in the video variable fruitWeight is written "weight".
+    public Banana(int fruitWeight){
         // constructor delegation (Fruit constructor)
         super(fruitWeight);
         usefulVolume = 40; //%
@@ -12,4 +12,9 @@ public class Banana extends Fruit{
     public Banana(){
         super();    
     }
+
+    public void printVitamines(){
+        System.out.println("Fiber, Potassium, Magnesium,Vitamin C,Manganese ");
+    }
 }
+
